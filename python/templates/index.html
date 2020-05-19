@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Điểm thi online</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>{{test}}</h1>
+        <!-- <ul>  
+        <li>Điểm chuẩn</li>
+        <li>Tư vấn chọn trường</li>
+        <li>Danh sách trúng tuyển</li>
+        <li>Tìm trọ</li>
+        </ul> -->
+        {% if new_year %}
+            <h1>YES!!! HAPPY NEW YEAR</h1>
+        {% else %}
+            <h1>NO</h1>
+        {% endif %}
+    </body>
+</html>
